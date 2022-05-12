@@ -1,0 +1,419 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.container1{
+    margin: 0px auto;
+    width: 1200px;
+    height:Auto;
+    background-color:red;
+  display: grid;
+  grid-template-rows:50px 144px 144px 144px;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+ row-gap: 12px;
+ column-gap: 12px;
+padding: 20px;
+
+}
+
+
+.item{
+    background-color: aqua;
+    /* width: 70px;
+    
+    height: 70px; */
+
+    
+  
+    
+}
+
+.item6{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+}
+.carousel-item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+.item7{
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+.price{
+    position: relative;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  top: -100px;
+}
+
+.sub_heading{
+    position: relative;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 200;
+  color: white;
+  top: -100px;
+
+}
+
+.imgs{
+    width: 100%;
+    height: 144px;
+    object-fit: cover;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.text1{
+    position: relative;
+    top: -130px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.text2{
+    position: relative;
+    top: -130px;
+    color: white;
+    left: 100px;
+    font-size: 24px;
+    margin: 15px;
+    cursor: pointer;
+
+}
+
+
+
+
+.item8{
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+
+.container2{
+    margin: 0px auto;
+    width: 1200px;
+    height:Auto;
+    background-color:red;
+  display: grid;
+  grid-template-rows:144px 144px 10px 144px 144px;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+ row-gap: 12px;
+ column-gap: 12px;
+padding: 20px;
+
+}
+
+.items1{
+    grid-column-start: 1;
+    grid-column-end: 8; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: aliceblue;
+    display: flex;
+}
+
+.imgs_container2{
+    height: 100%;
+
+}
+
+.ice_cream_heading{
+    margin-top: 20px;
+    color: cornflowerblue;
+    text-transform: capitalize;
+}
+
+
+.items2{
+    grid-column-start: 1;
+    grid-column-end: 4; 
+    background-image: linear-gradient(to right ,red, pink);
+    
+}
+
+
+
+.items3{
+    position: relative;
+    background-color: red;
+    color: aliceblue;
+    text-align: center;
+    top: -4px;
+
+}
+
+.items4{
+    grid-column-start: 5;
+    grid-column-end: 8; 
+    background-image: linear-gradient(to left ,red, pink);
+}
+
+.TOP-HEADING{
+    position: relative;
+    text-align: center;
+    color:blueviolet;
+    font-size: 24px;
+    font-weight: 800;
+    top: -10px;
+
+}
+
+
+@media only screen and (max-width:705px){
+    .container1{
+        margin: 0px auto;
+    width: 85%;
+    height:Auto;
+    background-color:red;
+  display: grid;
+  grid-template-rows:50px 50px 50px 1fr 146px 146px 146px 146px;
+  grid-template-columns:1fr 1fr;
+ row-gap: 5px;
+ column-gap: 5px;
+padding: 5px;
+    }
+
+
+    
+    .item6{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 6;
+    
+    }
+
+    .item7{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        
+
+    }
+
+    
+.item8{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.text2{
+    position: relative;
+    top: -130px;
+    color: white;
+    left: 170px;
+    font-size: 24px;
+    margin: 15px;
+    cursor: pointer;
+    /* text-align: center; */
+
+}
+
+
+
+.container2{
+    margin: 0px auto;
+    width: 85%;
+    height:Auto;
+    background-color:red;
+  display: grid;
+  grid-template-rows:1fr 20px 30px 20px 140px 140px 140px 140px 140px 140px 140px 140px 140px;
+  grid-template-columns:1fr 1fr;
+ row-gap: 5px;
+ column-gap: 5px;
+padding: 5px;
+
+}
+
+.imgs_container2{
+width: 100%;
+
+}
+
+.ice_cream_heading{
+    margin-top: 20px;
+     margin-left: 60px;
+    color: cornflowerblue;
+    text-transform: capitalize;
+}
+
+
+
+.items1{
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.items2{
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    background-color:pink;
+    width: 100%;
+    height:30px ;
+    
+}
+
+.items3{
+    position: relative;
+    /* background-color: red; */
+    color: aliceblue;
+    text-align: center;
+    top: -10px;
+
+}
+
+
+
+
+
+.items4{
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    background-color:pink;
+}
+
+
+
+}
+
+
+
+@media only screen and (max-width:480px){
+    .container1{
+        margin: 0px auto;
+    width: 100%;
+    height:Auto;
+    background-color:red;
+  display: grid;
+  grid-template-rows:50px 50px 50px 50px 50px 1fr 146px 146px 146px 146px 146px 146px 146px;
+  grid-template-columns:1fr;
+ row-gap: 5px;
+ column-gap: 5px;
+padding: 5px;
+    }
+
+
+
+    .item6{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    
+    }
+
+    .item7{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    
+.item8{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.text2{
+    position: relative;
+    top: -130px;
+    color: white;
+    left: 170px;
+    font-size: 24px;
+    margin: 15px;
+    cursor: pointer;
+    /* text-align: center; */
+
+}
+
+
+
+
+
+.container2{
+    margin: 0px auto;
+    width: 100%;
+    height:Auto;
+    background-color:red;
+  display: grid;
+  grid-template-rows:1fr 20px 10px 20px 10px 140px 140px 140px 140px 140px 140px 140px 140px;
+  grid-template-columns:1fr;
+ row-gap: 5px;
+ column-gap: 5px;
+padding: 5px;
+
+}
+
+.imgs_container2{
+width: 100%;
+
+}
+
+.ice_cream_heading{
+    margin-top: 20px;
+     margin-left: 60px;
+    color: cornflowerblue;
+    text-transform: capitalize;
+}
+
+
+
+.items1{
+    grid-column-start: 1;
+    grid-column-end: 1; 
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.items2{
+    grid-column-start: 1;
+    grid-column-end: 1; 
+    background-color:pink;
+    width: 100%;
+    height:30px ;
+    
+}
+
+.items3{
+    position: relative;
+    /* background-color: red; */
+    color: aliceblue;
+    text-align: center;
+    top: -10px;
+
+}
+
+
+
+
+
+.items4{
+    grid-column-start: 1;
+    grid-column-end: 1; 
+    background-color:pink;
+}
+    
+}
